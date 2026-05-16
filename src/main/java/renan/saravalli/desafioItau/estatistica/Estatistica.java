@@ -1,4 +1,4 @@
-package renan.saravalli.desafioItau.models;
+package renan.saravalli.desafioItau.estatistica;
 
 
 import lombok.Getter;

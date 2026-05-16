@@ -1,11 +1,8 @@
-package renan.saravalli.desafioItau.service;
+package renan.saravalli.desafioItau.transacao;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.server.ResponseStatusException;
-import renan.saravalli.desafioItau.dto.TransacaoDTO;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;

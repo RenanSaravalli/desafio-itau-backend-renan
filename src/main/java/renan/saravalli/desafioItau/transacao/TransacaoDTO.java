@@ -1,4 +1,4 @@
-package renan.saravalli.desafioItau.models;
+package renan.saravalli.desafioItau.transacao;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.time.OffsetDateTime;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Transacao {
+public class TransacaoDTO {
     private BigDecimal valor;
     private OffsetDateTime dataHora;
 }
